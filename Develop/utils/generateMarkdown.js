@@ -88,7 +88,7 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Installation
-  ${data.install}
+  ${data.installation}
 
   ## Usage
   ${data.usage}
@@ -101,9 +101,9 @@ function generateMarkdown(data) {
 
   ## Questions?
   ### Reach me here:
-  [${data.username}](https://github.com/${data.username})
-  ${data.email}
-
+  GitHub: [${data.username}](https://github.com/${data.username})
+  
+  Email: ${data.email}
 `;
 }
 
